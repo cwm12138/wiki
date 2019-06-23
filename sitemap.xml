@@ -2,9 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://cwm.wiki/index/</loc>
+    <loc>https://cwm.wiki/%E8%BD%AF%E4%BB%B6%E6%8A%80%E5%B7%A7/windows/</loc>
     
-    <lastmod>2019-06-23T09:21:17.274Z</lastmod>
+    <lastmod>2019-06-23T14:04:48.727Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cwm.wiki/%E8%BD%AF%E4%BB%B6%E6%8A%80%E5%B7%A7/vscode/</loc>
+    
+    <lastmod>2019-06-23T14:04:27.784Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cwm.wiki/%E5%A5%87%E6%80%9D%E5%A6%99%E6%83%B3/BT/</loc>
+    
+    <lastmod>2019-06-23T14:01:45.409Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cwm.wiki/template/</loc>
+    
+    <lastmod>2019-06-23T13:59:27.789Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://cwm.wiki/welcome/</loc>
+    
+    <lastmod>2019-06-23T13:59:16.943Z</lastmod>
     
   </url>
   
