@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cwm.wiki/"/>
-  <updated>2019-06-23T13:59:27.789Z</updated>
+  <updated>2019-06-23T14:07:57.180Z</updated>
   <id>https://cwm.wiki/</id>
   
   <author>
@@ -15,31 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>template</title>
-    <link href="https://cwm.wiki/template/"/>
-    <id>https://cwm.wiki/template/</id>
-    <published>2019-06-23T13:59:27.000Z</published>
-    <updated>2019-06-23T13:59:27.789Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/u
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>关于我的笔记系统</title>
@@ -89,33 +64,6 @@
   </entry>
   
   <entry>
-    <title>Vscode 配置和技巧</title>
-    <link href="https://cwm.wiki/%E8%BD%AF%E4%BB%B6%E6%8A%80%E5%B7%A7/vscode/"/>
-    <id>https://cwm.wiki/软件技巧/vscode/</id>
-    <published>2019-06-22T16:00:00.000Z</published>
-    <updated>2019-06-23T14:04:27.784Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Git操作"><a href="#Git操作" class="headerlink" title="Git操作"></a>Git操作</h1><p>一些 shrotcut</p><p>ctrl + shift + g 快速到达Git操作界面</p><p>ctrl + enter 提交一个commit</p><p>setting 搜索 git post 可以修改commit后的操作，比如push or sync。 此操作需要在1.30.1版本之后</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;Git操作&quot;&gt;&lt;a href=&quot;#Git操作&quot; class=&quot;headerlink&quot; title=&quot;Git操作&quot;&gt;&lt;/a&gt;Git操作&lt;/h1&gt;&lt;p&gt;一些 shrotcut&lt;/p&gt;
-&lt;p&gt;ctrl + shift + g 快速到达Git操作界面&lt;/p&gt;
-&lt;p&gt;ctr
-      
-    
-    </summary>
-    
-      <category term="软件技巧" scheme="https://cwm.wiki/categories/%E8%BD%AF%E4%BB%B6%E6%8A%80%E5%B7%A7/"/>
-    
-    
-      <category term="vscode" scheme="https://cwm.wiki/tags/vscode/"/>
-    
-  </entry>
-  
-  <entry>
     <title>BT基本概念</title>
     <link href="https://cwm.wiki/%E5%A5%87%E6%80%9D%E5%A6%99%E6%83%B3/BT/"/>
     <id>https://cwm.wiki/奇思妙想/BT/</id>
@@ -145,6 +93,33 @@
     
     
       <category term="BT" scheme="https://cwm.wiki/tags/BT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vscode 配置和技巧</title>
+    <link href="https://cwm.wiki/%E8%BD%AF%E4%BB%B6%E6%8A%80%E5%B7%A7/vscode/"/>
+    <id>https://cwm.wiki/软件技巧/vscode/</id>
+    <published>2019-06-22T16:00:00.000Z</published>
+    <updated>2019-06-23T14:04:27.784Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Git操作"><a href="#Git操作" class="headerlink" title="Git操作"></a>Git操作</h1><p>一些 shrotcut</p><p>ctrl + shift + g 快速到达Git操作界面</p><p>ctrl + enter 提交一个commit</p><p>setting 搜索 git post 可以修改commit后的操作，比如push or sync。 此操作需要在1.30.1版本之后</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Git操作&quot;&gt;&lt;a href=&quot;#Git操作&quot; class=&quot;headerlink&quot; title=&quot;Git操作&quot;&gt;&lt;/a&gt;Git操作&lt;/h1&gt;&lt;p&gt;一些 shrotcut&lt;/p&gt;
+&lt;p&gt;ctrl + shift + g 快速到达Git操作界面&lt;/p&gt;
+&lt;p&gt;ctr
+      
+    
+    </summary>
+    
+      <category term="软件技巧" scheme="https://cwm.wiki/categories/%E8%BD%AF%E4%BB%B6%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="vscode" scheme="https://cwm.wiki/tags/vscode/"/>
     
   </entry>
   
