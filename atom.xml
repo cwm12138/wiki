@@ -42,33 +42,6 @@
   </entry>
   
   <entry>
-    <title>index</title>
-    <link href="http://yoursite.com/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB/index/"/>
-    <id>http://yoursite.com/测试分类/index/</id>
-    <published>2019-06-23T02:29:02.000Z</published>
-    <updated>2019-06-23T02:29:08.093Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href></a></li><li><a href></a></li></ul></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h2&gt;&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/u
-      
-    
-    </summary>
-    
-      <category term="测试分类" scheme="http://yoursite.com/categories/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
     <link href="http://yoursite.com/%E6%B5%8B%E8%AF%95%E5%88%86%E7%B1%BB2/%E6%B5%8B%E8%AF%95%E5%AD%90%E5%88%86%E7%B1%BB/hello-world/"/>
     <id>http://yoursite.com/测试分类2/测试子分类/hello-world/</id>
