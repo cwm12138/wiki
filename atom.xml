@@ -71,7 +71,7 @@
     <link href="https://cwm.wiki/welcome/"/>
     <id>https://cwm.wiki/welcome/</id>
     <published>2019-06-23T01:53:15.810Z</published>
-    <updated>2019-06-23T13:59:16.943Z</updated>
+    <updated>2019-06-23T14:16:57.502Z</updated>
     
     <content type="html"><![CDATA[<p><strong>欢迎来到我的Wiki系统</strong></p>]]></content>
     
@@ -122,33 +122,6 @@
   </entry>
   
   <entry>
-    <title>Vscode 配置和技巧</title>
-    <link href="https://cwm.wiki/%E8%BD%AF%E4%BB%B6%E6%8A%80%E5%B7%A7/vscode/"/>
-    <id>https://cwm.wiki/软件技巧/vscode/</id>
-    <published>2019-06-22T16:00:00.000Z</published>
-    <updated>2019-06-23T14:04:27.784Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Git操作"><a href="#Git操作" class="headerlink" title="Git操作"></a>Git操作</h1><p>一些 shrotcut</p><p>ctrl + shift + g 快速到达Git操作界面</p><p>ctrl + enter 提交一个commit</p><p>setting 搜索 git post 可以修改commit后的操作，比如push or sync。 此操作需要在1.30.1版本之后</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;Git操作&quot;&gt;&lt;a href=&quot;#Git操作&quot; class=&quot;headerlink&quot; title=&quot;Git操作&quot;&gt;&lt;/a&gt;Git操作&lt;/h1&gt;&lt;p&gt;一些 shrotcut&lt;/p&gt;
-&lt;p&gt;ctrl + shift + g 快速到达Git操作界面&lt;/p&gt;
-&lt;p&gt;ctr
-      
-    
-    </summary>
-    
-      <category term="软件技巧" scheme="https://cwm.wiki/categories/%E8%BD%AF%E4%BB%B6%E6%8A%80%E5%B7%A7/"/>
-    
-    
-      <category term="vscode" scheme="https://cwm.wiki/tags/vscode/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Windows 快捷键</title>
     <link href="https://cwm.wiki/%E8%BD%AF%E4%BB%B6%E6%8A%80%E5%B7%A7/windows/"/>
     <id>https://cwm.wiki/软件技巧/windows/</id>
@@ -173,6 +146,33 @@
     
       <category term="软件技巧" scheme="https://cwm.wiki/categories/%E8%BD%AF%E4%BB%B6%E6%8A%80%E5%B7%A7/"/>
     
+    
+  </entry>
+  
+  <entry>
+    <title>Vscode 配置和技巧</title>
+    <link href="https://cwm.wiki/%E8%BD%AF%E4%BB%B6%E6%8A%80%E5%B7%A7/vscode/"/>
+    <id>https://cwm.wiki/软件技巧/vscode/</id>
+    <published>2019-06-22T16:00:00.000Z</published>
+    <updated>2019-06-23T14:04:27.784Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Git操作"><a href="#Git操作" class="headerlink" title="Git操作"></a>Git操作</h1><p>一些 shrotcut</p><p>ctrl + shift + g 快速到达Git操作界面</p><p>ctrl + enter 提交一个commit</p><p>setting 搜索 git post 可以修改commit后的操作，比如push or sync。 此操作需要在1.30.1版本之后</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Git操作&quot;&gt;&lt;a href=&quot;#Git操作&quot; class=&quot;headerlink&quot; title=&quot;Git操作&quot;&gt;&lt;/a&gt;Git操作&lt;/h1&gt;&lt;p&gt;一些 shrotcut&lt;/p&gt;
+&lt;p&gt;ctrl + shift + g 快速到达Git操作界面&lt;/p&gt;
+&lt;p&gt;ctr
+      
+    
+    </summary>
+    
+      <category term="软件技巧" scheme="https://cwm.wiki/categories/%E8%BD%AF%E4%BB%B6%E6%8A%80%E5%B7%A7/"/>
+    
+    
+      <category term="vscode" scheme="https://cwm.wiki/tags/vscode/"/>
     
   </entry>
   

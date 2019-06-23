@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://cwm.wiki/welcome/</loc>
+    
+    <lastmod>2019-06-23T14:16:57.502Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://cwm.wiki/%E7%BC%96%E7%A8%8B%E7%9B%B8%E5%85%B3/%E5%89%8D%E7%AB%AF/%E5%9C%A8%E5%9B%BD%E5%86%85%E4%BF%AE%E6%94%B9npm%E6%BA%90%E7%9A%84%E6%AD%A3%E7%A1%AE%E5%A7%BF%E5%8A%BF/</loc>
     
     <lastmod>2019-06-23T14:12:26.503Z</lastmod>
@@ -40,13 +47,6 @@
     <loc>https://cwm.wiki/template/</loc>
     
     <lastmod>2019-06-23T13:59:27.789Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://cwm.wiki/welcome/</loc>
-    
-    <lastmod>2019-06-23T13:59:16.943Z</lastmod>
     
   </url>
   
