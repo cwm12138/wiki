@@ -64,39 +64,6 @@
   </entry>
   
   <entry>
-    <title>BT基本概念</title>
-    <link href="https://wiki.nefuer.cc/%E5%A5%87%E6%80%9D%E5%A6%99%E6%83%B3/BT/"/>
-    <id>https://wiki.nefuer.cc/奇思妙想/BT/</id>
-    <published>2019-06-22T16:00:00.000Z</published>
-    <updated>2019-06-23T14:01:45.409Z</updated>
-    
-    <content type="html"><![CDATA[<p>在下载BT时候使用的客户端</p><ul><li>utorrent</li><li>bittorrent</li></ul><blockquote><p>以上两个听说已经合并了，所以两个现在功能是相同的</p></blockquote><p>以下两个为开源社区产品</p><ul><li>qbtorretn</li><li>transmission</li></ul><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href="https://tieba.baidu.com/f?kw=pt&ie=utf-8&tab=good" target="_blank" rel="noopener">百度PT吧精品帖</a></li></ul></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;在下载BT时候使用的客户端&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;utorrent&lt;/li&gt;
-&lt;li&gt;bittorrent&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;以上两个听说已经合并了，所以两个现在功能是相同的&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;以下两个为开源社
-      
-    
-    </summary>
-    
-      <category term="奇思妙想" scheme="https://wiki.nefuer.cc/categories/%E5%A5%87%E6%80%9D%E5%A6%99%E6%83%B3/"/>
-    
-    
-      <category term="BT" scheme="https://wiki.nefuer.cc/tags/BT/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Vscode 配置和技巧</title>
     <link href="https://wiki.nefuer.cc/%E8%BD%AF%E4%BB%B6%E6%8A%80%E5%B7%A7/vscode/"/>
     <id>https://wiki.nefuer.cc/软件技巧/vscode/</id>
@@ -148,6 +115,39 @@
     
       <category term="软件技巧" scheme="https://wiki.nefuer.cc/categories/%E8%BD%AF%E4%BB%B6%E6%8A%80%E5%B7%A7/"/>
     
+    
+  </entry>
+  
+  <entry>
+    <title>BT基本概念</title>
+    <link href="https://wiki.nefuer.cc/%E5%A5%87%E6%80%9D%E5%A6%99%E6%83%B3/BT/"/>
+    <id>https://wiki.nefuer.cc/奇思妙想/BT/</id>
+    <published>2019-06-22T16:00:00.000Z</published>
+    <updated>2019-06-23T14:01:45.409Z</updated>
+    
+    <content type="html"><![CDATA[<p>在下载BT时候使用的客户端</p><ul><li>utorrent</li><li>bittorrent</li></ul><blockquote><p>以上两个听说已经合并了，所以两个现在功能是相同的</p></blockquote><p>以下两个为开源社区产品</p><ul><li>qbtorretn</li><li>transmission</li></ul><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href="https://tieba.baidu.com/f?kw=pt&ie=utf-8&tab=good" target="_blank" rel="noopener">百度PT吧精品帖</a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;在下载BT时候使用的客户端&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;utorrent&lt;/li&gt;
+&lt;li&gt;bittorrent&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;以上两个听说已经合并了，所以两个现在功能是相同的&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;以下两个为开源社
+      
+    
+    </summary>
+    
+      <category term="奇思妙想" scheme="https://wiki.nefuer.cc/categories/%E5%A5%87%E6%80%9D%E5%A6%99%E6%83%B3/"/>
+    
+    
+      <category term="BT" scheme="https://wiki.nefuer.cc/tags/BT/"/>
     
   </entry>
   
