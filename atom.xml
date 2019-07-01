@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wiki.nefuer.cc/"/>
-  <updated>2019-06-23T14:07:57.180Z</updated>
+  <updated>2019-06-23T14:16:57.502Z</updated>
   <id>https://wiki.nefuer.cc/</id>
   
   <author>
@@ -17,35 +17,10 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>关于我的笔记系统</title>
-    <link href="https://wiki.nefuer.cc/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E6%83%B3/%E7%AC%94%E8%AE%B0%E6%80%9D%E8%80%83/"/>
-    <id>https://wiki.nefuer.cc/个人随想/笔记思考/</id>
-    <published>2019-06-23T09:18:50.000Z</published>
-    <updated>2019-06-23T14:07:57.180Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="心中的笔记样子"><a href="#心中的笔记样子" class="headerlink" title="心中的笔记样子"></a>心中的笔记样子</h1><ul><li>界面简洁，排版整齐，要有留白，不能太满</li><li>最好静态页面，如果只是用来浏览的话足够</li><li>支持多级分类</li><li>分类目录可一次性展开和收缩</li><li>支持全文搜索</li><li>使用 Markdown 书写</li><li>有修改记录 ： 可以用Git的commit记录来作修改记录</li></ul><h1 id="所做的一些尝试"><a href="#所做的一些尝试" class="headerlink" title="所做的一些尝试"></a>所做的一些尝试</h1><p>手写笔记本、onenote、goodnote、evernote。 最后选择自建 wiki 系统。</p><h1 id="关于对-Wiki-系统的理解"><a href="#关于对-Wiki-系统的理解" class="headerlink" title="关于对 Wiki 系统的理解"></a>关于对 Wiki 系统的理解</h1><p>Wiki 大多是用来进行 知识的整理、消化、归档。于是就有了下面一个知识管理流程</p><ol><li>通过网页收集器（下面有说到）、RSS（还没有想法，等有想法的时候我再写一篇专门的文章）、微信公众号等封闭的 App 作为知识来源</li><li>通过笔记系统（手写笔记、印象笔记剪辑）初步筛选有价值有针对性的信息，收藏信息，分类整理，做读后要点总结记录。</li><li>自己突然想到或总结到的一两句话，可以用自己写的收集器。零碎的点子、灵感、初步消化的内容。 这个地方可以做一个周期性的消化整理到wiki中</li><li>将首次整理沉淀下来的东西放入到 wiki 系统中，最后当wiki有了一定量需要进一步重读消化，再整理。这个整理的时间间隔相比上一个步骤要长一些</li><li>在wiki中二次消化并且有自己的理解后，组织语言生成一篇全新的属于自己的文章，发布到博客上。记住博客中的内容都必须是原创和带有链接的引用。</li></ol><p>在使用中，收集器相当于一个垃圾桶什么东西都往里面放，同样的这个部分中的信息也是更新整理频率最快的部分。</p><p>wiki 中新建一个板块的时候，可能只有很少内容或者一句话，但是通过这个流程日常使用、日积月累，那么这个板块记录中的内容也就变多了，也就是通过积累，把原本大量碎片化的知识结构化整理起来了，有一种成就感</p><h1 id="最新想法"><a href="#最新想法" class="headerlink" title="最新想法"></a>最新想法</h1><ol><li>想法收集器</li></ol><p>首先 Chrome 浏览器可以制作一个插件,类似于滴答清单,但是可以收集东西. 目前的感觉滴答清单非常好用,如果能做到功能简化功能单一的话就更好了.</p><p>以上想法需要解决的问题是 云存储的问题</p><p>如果是对于文字的存储就没问题,但是对于网页的存储呢?</p><p>希望找到一个可以用来收集想法的App 但是为了满足自己的需求,看起来还是需要对App进行定制化</p><ol start="2"><li>RSS订阅推送</li></ol><p>现在我自己的工作流是 主动的去各大网站搜寻,例如 V2ex 掘金 gitbook等等,但是总是会有时效性的,而且会出现有些资源被莫名删除的情况。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;心中的笔记样子&quot;&gt;&lt;a href=&quot;#心中的笔记样子&quot; class=&quot;headerlink&quot; title=&quot;心中的笔记样子&quot;&gt;&lt;/a&gt;心中的笔记样子&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;界面简洁，排版整齐，要有留白，不能太满&lt;/li&gt;
-&lt;li&gt;最好静态页面，如果只是用来浏览
-      
-    
-    </summary>
-    
-      <category term="个人随想" scheme="https://wiki.nefuer.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E6%83%B3/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Welcome</title>
     <link href="https://wiki.nefuer.cc/welcome/"/>
     <id>https://wiki.nefuer.cc/welcome/</id>
-    <published>2019-06-23T01:53:15.810Z</published>
+    <published>2019-07-01T15:13:41.145Z</published>
     <updated>2019-06-23T14:16:57.502Z</updated>
     
     <content type="html"><![CDATA[<p><strong>欢迎来到我的Wiki系统</strong></p>]]></content>
@@ -147,6 +122,31 @@
     </summary>
     
       <category term="软件技巧" scheme="https://wiki.nefuer.cc/categories/%E8%BD%AF%E4%BB%B6%E6%8A%80%E5%B7%A7/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关于我的笔记系统</title>
+    <link href="https://wiki.nefuer.cc/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E6%83%B3/%E7%AC%94%E8%AE%B0%E6%80%9D%E8%80%83/"/>
+    <id>https://wiki.nefuer.cc/个人随想/笔记思考/</id>
+    <published>2019-06-22T16:00:00.000Z</published>
+    <updated>2019-07-01T15:15:46.419Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="心中的笔记样子"><a href="#心中的笔记样子" class="headerlink" title="心中的笔记样子"></a>心中的笔记样子</h1><ul><li>界面简洁，排版整齐，要有留白，不能太满</li><li>最好静态页面，如果只是用来浏览的话足够</li><li>支持多级分类</li><li>分类目录可一次性展开和收缩</li><li>支持全文搜索</li><li>使用 Markdown 书写</li><li>有修改记录 ： 可以用Git的commit记录来作修改记录</li></ul><h1 id="所做的一些尝试"><a href="#所做的一些尝试" class="headerlink" title="所做的一些尝试"></a>所做的一些尝试</h1><p>手写笔记本、onenote、goodnote、evernote。 最后选择自建 wiki 系统。</p><h1 id="关于对-Wiki-系统的理解"><a href="#关于对-Wiki-系统的理解" class="headerlink" title="关于对 Wiki 系统的理解"></a>关于对 Wiki 系统的理解</h1><p>Wiki 大多是用来进行 知识的整理、消化、归档。于是就有了下面一个知识管理流程</p><ol><li>通过网页收集器（下面有说到）、RSS（还没有想法，等有想法的时候我再写一篇专门的文章）、微信公众号等封闭的 App 作为知识来源</li><li>通过笔记系统（手写笔记、印象笔记剪辑）初步筛选有价值有针对性的信息，收藏信息，分类整理，做读后要点总结记录。</li><li>自己突然想到或总结到的一两句话，可以用自己写的收集器。零碎的点子、灵感、初步消化的内容。 这个地方可以做一个周期性的消化整理到wiki中</li><li>将首次整理沉淀下来的东西放入到 wiki 系统中，最后当wiki有了一定量需要进一步重读消化，再整理。这个整理的时间间隔相比上一个步骤要长一些</li><li>在wiki中二次消化并且有自己的理解后，组织语言生成一篇全新的属于自己的文章，发布到博客上。记住博客中的内容都必须是原创和带有链接的引用。</li></ol><p>在使用中，收集器相当于一个垃圾桶什么东西都往里面放，同样的这个部分中的信息也是更新整理频率最快的部分。</p><p>wiki 中新建一个板块的时候，可能只有很少内容或者一句话，但是通过这个流程日常使用、日积月累，那么这个板块记录中的内容也就变多了，也就是通过积累，把原本大量碎片化的知识结构化整理起来了，有一种成就感</p><h1 id="最新想法"><a href="#最新想法" class="headerlink" title="最新想法"></a>最新想法</h1><ol><li>想法收集器</li></ol><p>首先 Chrome 浏览器可以制作一个插件,类似于滴答清单,但是可以收集东西. 目前的感觉滴答清单非常好用,如果能做到功能简化功能单一的话就更好了.</p><p>以上想法需要解决的问题是 云存储的问题</p><p>如果是对于文字的存储就没问题,但是对于网页的存储呢?</p><p>希望找到一个可以用来收集想法的App 但是为了满足自己的需求,看起来还是需要对App进行定制化</p><ol start="2"><li>RSS订阅推送</li></ol><p>现在我自己的工作流是 主动的去各大网站搜寻,例如 V2ex 掘金 gitbook等等,但是总是会有时效性的,而且会出现有些资源被莫名删除的情况。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;心中的笔记样子&quot;&gt;&lt;a href=&quot;#心中的笔记样子&quot; class=&quot;headerlink&quot; title=&quot;心中的笔记样子&quot;&gt;&lt;/a&gt;心中的笔记样子&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;界面简洁，排版整齐，要有留白，不能太满&lt;/li&gt;
+&lt;li&gt;最好静态页面，如果只是用来浏览
+      
+    
+    </summary>
+    
+      <category term="个人随想" scheme="https://wiki.nefuer.cc/categories/%E4%B8%AA%E4%BA%BA%E9%9A%8F%E6%83%B3/"/>
     
     
   </entry>
