@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://cwm.wiki/"/>
-  <updated>2019-07-15T01:18:28.158Z</updated>
+  <updated>2019-07-21T01:31:44.966Z</updated>
   <id>https://cwm.wiki/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>小米笔记本安装Ubuntu体验</title>
+    <link href="https://cwm.wiki/%E8%BD%AF%E4%BB%B6%E6%8A%80%E5%B7%A7/%E5%B0%8F%E7%B1%B3%E7%AC%94%E8%AE%B0%E6%9C%AC%E5%AE%89%E8%A3%85Ubuntu%E4%BD%93%E9%AA%8C/"/>
+    <id>https://cwm.wiki/软件技巧/小米笔记本安装Ubuntu体验/</id>
+    <published>2019-07-20T15:25:39.000Z</published>
+    <updated>2019-07-21T01:31:44.966Z</updated>
+    
+    <content type="html"><![CDATA[<p>迫于 Windows 的开发体验，我还是服软了。这让我这软粉老脸往哪搁</p><h2 id="首先关闭小米笔记本的-secure-boot"><a href="#首先关闭小米笔记本的-secure-boot" class="headerlink" title="首先关闭小米笔记本的 secure boot"></a>首先关闭小米笔记本的 secure boot</h2><p>按开机键后狂按 F2 进入 BIOS 界面</p><p>在BIOS里面设置，就在安全选项的第一个，设置一个新的密码</p><p>具体步骤：</p><p>1、找到安全选项，选择security里选择set supervisor password，设置好密码。</p><p>2、把下面的secure boot改成disabled。</p><p>3、以后进BIOS就需要这个密码，一定要记好密码。</p><p>关闭之后才能安装显卡，不然安装完成显卡也木有用</p><h2 id="安装结束后会出现卡-Logo-或-关机出现-watchdog-bug"><a href="#安装结束后会出现卡-Logo-或-关机出现-watchdog-bug" class="headerlink" title="安装结束后会出现卡 Logo 或 关机出现 watchdog:bug"></a>安装结束后会出现卡 Logo 或 关机出现 watchdog:bug</h2><h3 id="根本原因"><a href="#根本原因" class="headerlink" title="根本原因"></a>根本原因</h3><p>很明显的一个显卡的问题，总是在图形界面出毛病。通常是因为小米本用的是GTX系列的 Nvidia 显卡，但是 Ubuntu 下的 Nvidia 显卡驱动是开源的 nouveau.(截至目前已经有消息出现官方支持的 Nvidia 显卡驱动) </p><h3 id="先禁用原先的-nouveau"><a href="#先禁用原先的-nouveau" class="headerlink" title="先禁用原先的 nouveau"></a>先禁用原先的 nouveau</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo chmod 666 /etc/modprobe.d/blacklist.conf</span><br><span class="line">sudo vi /etc/modprobe.d/blacklist.conf</span><br></pre></td></tr></table></figure><p>在<code>blacklist.conf</code>最后添加几行：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">blacklist vga16fb</span><br><span class="line">blacklist nouveau</span><br><span class="line">blacklist rivafb</span><br><span class="line">blacklist nvidiafb</span><br><span class="line">blacklist rivatv</span><br></pre></td></tr></table></figure><p>最后保存文件之后记得把文件属性复原</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chmod 644 /etc/modprobe.d/blacklist.conf</span><br></pre></td></tr></table></figure><p>接着更新一下内核</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo update-initramfs -u</span><br><span class="line">reboot</span><br></pre></td></tr></table></figure><p>重启之后应该还可以进入图形界面，因为还有一张 Intel 的集成显卡，重启之后确认一下 nouveau 是否已经被屏蔽掉</p><p><code>lsmode | greo nouveau</code></p><h3 id="安装-Nvidia-驱动"><a href="#安装-Nvidia-驱动" class="headerlink" title="安装 Nvidia 驱动"></a>安装 Nvidia 驱动</h3><p>添加Graphic Drivers PPA</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo add-apt-repository ppa:graphics-drivers/ppa</span><br><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure><p>再查看推荐的驱动版本</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ubuntu-drivers devices</span><br></pre></td></tr></table></figure><p>找到<code>recommend</code>的 nvidia-driver-XXX 然后准备开始安装</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install nvidia-driver-XXX</span><br><span class="line">reboot</span><br></pre></td></tr></table></figure><p>Tips: 这里公网说要在非图形化界面进行安装，但是我直接执行了以上也没有什么异常。</p><p>并且我发现当前的 <code>Ubuntu 18.04.2</code> 并没有 TTY 界面</p><p>正常 <code>ctrl+alt+f3,4,5</code> 就可以启动非图形化界面</p><p>可以试试以下解决方案</p><p>编辑 <code>/etc/default/grub</code></p><p>修改GRUB_CMDLINE_LINUX_DEFAULT的值由“quiet splash”为”nomodest”</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo update-grub // 更新grub</span><br><span class="line">reboot</span><br></pre></td></tr></table></figure><h2 id="一些其他优化"><a href="#一些其他优化" class="headerlink" title="一些其他优化"></a>一些其他优化</h2><h3 id="安装-Chomre-浏览器"><a href="#安装-Chomre-浏览器" class="headerlink" title="安装 Chomre 浏览器"></a>安装 Chomre 浏览器</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sudo wget http://www.linuxidc.com/files/repo/google-chrome.list -P /etc/apt/sources.list.d/</span><br><span class="line"></span><br><span class="line">wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -</span><br><span class="line"></span><br><span class="line">sudo apt update</span><br><span class="line"></span><br><span class="line">sudo apt install google-chrome-stable</span><br></pre></td></tr></table></figure><h3 id="卸载自带的软件"><a href="#卸载自带的软件" class="headerlink" title="卸载自带的软件"></a>卸载自带的软件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dkpg --list // 查看所有安装的软件</span><br><span class="line">sudo apt purge xxx // 卸载</span><br></pre></td></tr></table></figure><h3 id="初次安装出现的字体错误"><a href="#初次安装出现的字体错误" class="headerlink" title="初次安装出现的字体错误"></a>初次安装出现的字体错误</h3><p>安装成功后输入的 <code>门</code> 字应该是日本字体，修复方法参考如下：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo vim /etc/fonts/conf.d/64-language-selector-prefer.conf</span><br></pre></td></tr></table></figure><p>这个文件配置了当前字体的优先级，JP 的优先级高于 SC 所以会出现字体出错的情况</p><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote><ul><li><a href="https://zhuanlan.zhihu.com/p/49607213" target="_blank" rel="noopener">Ubuntu 不能进 tty</a></li><li><a href="http://bbs.xiaomi.cn/t-35635269" target="_blank" rel="noopener">关闭小米笔记本安全启动</a></li><li><a href="https://blog.csdn.net/hustcw98/article/details/79324917" target="_blank" rel="noopener">Ubuntu 18.04 安装N卡</a></li><li><a href="https://jingyan.baidu.com/article/148a1921e1910a4d71c3b1d9.html" target="_blank" rel="noopener">Ubuntu 安装 Chrome 浏览器</a></li><li><a href="http://www.mamicode.com/info-detail-2553199.html" target="_blank" rel="noopener">Ubuntu 字体出错</a></li></ul></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;迫于 Windows 的开发体验，我还是服软了。这让我这软粉老脸往哪搁&lt;/p&gt;
+&lt;h2 id=&quot;首先关闭小米笔记本的-secure-boot&quot;&gt;&lt;a href=&quot;#首先关闭小米笔记本的-secure-boot&quot; class=&quot;headerlink&quot; title=&quot;首先关闭小
+      
+    
+    </summary>
+    
+      <category term="软件技巧" scheme="https://cwm.wiki/categories/%E8%BD%AF%E4%BB%B6%E6%8A%80%E5%B7%A7/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>梁老板访谈</title>
